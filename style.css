@@ -156,16 +156,19 @@ body{
   
 }
 .head2{
+    display: flex;
+    padding:1%;
     
 }
 .parent8{
     display:flex;  justify-content: flex-start;
-    padding: ;
+    flex: 0.5;
     gap: 10px;
+  
 }
 .child14{
     background-color: rgb(208, 126, 223);
-   flex: 0.4;
+   flex:0.3;
     height: 50px;
     border: 2px solid black;
 
@@ -173,24 +176,29 @@ body{
 
 .child15{
     background-color: rgb(208, 126, 223);
-   flex: 0.4;
+   flex:0.3;
     height: 50px;
     border: 2px solid black;
 
 }
 .child16{
     background-color: rgb(208, 126, 223);
-  flex: 0.4;
+  flex:0.3;
     height: 50px;
    
     border: 2px solid black;
 }
+.parent9{
+    display:flex;  justify-content: flex-end;
+    flex: 0.5;
+    gap: 10px;
+}
 .child17{
     background-color: grey;
-  flex: 0.25;
+  flex: 0.5;
     height: 30px;
     align-self: center;
-    margin-left:300px;
+    
     
   
 }
